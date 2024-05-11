@@ -1,54 +1,60 @@
 # Hepatitis Mortality Prediction using Machine Learning with Flask Web App -- Abraham Obianke 
 
 ## Introduction 
-What is hepatitis?
-Hepatitis is an inflammation of the liver. Inflammation is a swelling that happens when tissues of the body are injured or infected. It can damage your liver. This swelling and damage can affect how well your liver functions.
+What is thoracic surgery?
+Any operation in your chest (thorax) is thoracic surgery. While your heart is the best-known organ in your chest, thoracic surgery includes lung surgery and much more. It also includes surgery of your:
+Esophagus (food pipe).
+Trachea (windpipe).
+Diaphragm.
+Chest wall (ribs, breastbone and the muscles around them).
+Mediastinum (the area between your lungs).
 
-What causes hepatitis?
-Hepatitis can be caused by excessive alcohol consumption, toxins, certain medications, and certain medical conditions.
+What does thoracic surgery treat?
+Thoracic surgery includes any operation to treat an issue in your chest and upper abdomen, such as:
+Stretched blood vessels (aneurysms).
+Congenital (present at birth) heart issues.
+Irregular heart rhythms.
+Heart failure.
+Coronary artery disease.
 
-*Source:https://medlineplus.gov/hepatitis.html*
+*Source:https://my.clevelandclinic.org/health/treatments/24201-thoracic-surgery*
 
 ## Business Problem 
 ### Problem Context
-Patients with hepatitis have been continously increasing. An estimated 354 million people worldwide live with hepatitis B or C, and for most, testing and treatment remain beyond reach. Early detection is key to prioritizing and tailoring treatment plans for patients with low chances of survival from the disease.
+Complication rates following video assisted thoracoscopic surgery (VATS) lobectomy for lung cancer range between 6% and 34.2% and the mortality rate ranges between 0.6% and 1.3% (1-3). To date, there is no standardization for their classification. Postoperative complications are directly related to treatment effectiveness, prognosis, hospitalization costs and patients’ quality of life.
 
-*Source:https://who.int/health-topics/hepatitis#tab=tab_1*
+*Source:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4522469/#:~:text=Complication%20rates%20following%20video%20assisted,%25%20(1%2D3).*
 
 ## Objective(s)
-- Predict if a patient having Hepatitis will live or die based on Machine Learning (ML) parameters 
+- Predict if a patient having undergone thoracic surgery will live or die after 1 year based on Machine Learning (ML) parameters 
 
 
 ## Dataset Information
      1. Class: DIE, LIVE
-     2. AGE: 10, 20, 30, 40, 50, 60, 70, 80
-     3. SEX: male, female
-     4. STEROID: no, yes
-     5. ANTIVIRALS: no, yes
-     6. FATIGUE: no, yes
-     7. MALAISE: no, yes
-     8. ANOREXIA: no, yes
-     9. LIVER BIG: no, yes
-    10. LIVER FIRM: no, yes
-    11. SPLEEN PALPABLE: no, yes
-    12. SPIDERS: no, yes
-    13. ASCITES: no, yes
-    14. VARICES: no, yes
-    15. BILIRUBIN: 0.39, 0.80, 1.20, 2.00, 3.00, 4.00
-    16. ALK PHOSPHATE: 33, 80, 120, 160, 200, 250
-    17. SGOT: 13, 100, 200, 300, 400, 500, 
-    18. ALBUMIN: 2.1, 3.0, 3.8, 4.5, 5.0, 6.0
-    19. PROTIME: 10, 20, 30, 40, 50, 60, 70, 80, 90
-    20. HISTOLOGY: no, yes
+     3. FALSE VITAL CAPACITY(FVC): 2.88, 3.4, 2.76
+     4. FALSE EXPIRATORY VOLUME1(FEV1): 2.16, 1.88, 2.08
+     5. PAIN: no, yes
+     6. HAEMOPTYSIS: no, yes
+     7. DYSPNOEA: no, yes
+     8. COUGH: no, yes
+     9. WEAKNESS: no, yes
+    10. TUMOR SIZE: no, yes
+    11. DIABETES MELLITUS: no, yes
+    12. MI_6MO: no, yes
+    13. PAD: no, yes
+    14. SMOKING: no, yes
+    15. ASTHMA: no, yes
+    16. AGE: 40, 50, 60, 70, 75, 79
+  
 
     
-*Data Source:* https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/
+*Data Source:* https://archive.ics.uci.edu/dataset/277/thoracic+surgery+data
 
 
 ## Mapping Business Problem to ML Problem
 
 ### Type of Machine Learning Problem
-+ It is a binary classification problem, where given the above set of features, we need to predict if a given patient having hepatitis will live or die.
++ It is a binary classification problem, where given the above set of features, we need to predict if a given patient having undergone thoracic surgery will live or die post-operatively.
 
 
 ## Data Analysis Workflow
@@ -131,7 +137,7 @@ Since this is a binary classification problem, I used the following metrics:
 - Python 
 - Coding Tools
    - VS Code
-   - AWS Sagemaker
+   - Lightning.ai
 - ML Libraries 
   - Scikit-Learn
   - Pandas
@@ -149,17 +155,18 @@ Since this is a binary classification problem, I used the following metrics:
   - JavaScript 
 
 ## Data Source
-The dataset used in this project is sourced from the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/).
+The dataset used in this project is sourced from the UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/277/thoracic+surgery+data).
 
 
 ## Conclusion
-This project aims to provide insights into hepatitis mortality prediction using machine learning techniques. By analyzing relevant parameters, interpreting the outcome of the black-box model to foster trust and deploying the machine learning model with a user-friendly Flask web application, I aim to make the predictive model accessible to healthcare professionals and individuals interested in hepatitis prognosis aiding in early detection and preventive care.
+This project aims to provide insights into life expectancy prediction after thoracic surgery using machine learning techniques. By analyzing relevant parameters, interpreting the outcome of the black-box model to foster trust and deploying the machine learning model with a user-friendly Flask web application, I aim to make the predictive model accessible to healthcare professionals and individuals interested in thoracic surgery prognosis aiding in early detection and preventive care.
 
 
 ## Contact
 I'm Abraham Obianke, a Medic in Tech, for any enquiries, feedback or collaborations, feel free to [Connect with me on LinkedIn](https://www.linkedin.com/in/abraham-obianke-269112197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) or send me an Email via  [abrahamoaks@gmail.com](mailto:your_email@example.com).
 
 ## References
-1. University of California Irvine Machine Learning Repository (*https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/*)
-2. Medlineplus (*https://medlineplus.gov/hepatitis.html*)
-3. World Health Organization (*https://who.int/health-topics/hepatitis#tab=tab_1*)
+1. University of California Irvine Machine Learning Repository (*https://archive.ics.uci.edu/dataset/277/thoracic+surgery+data*)
+2. Cleveland Clinic (*Source:https://my.clevelandclinic.org/health/treatments/24201-thoracic-surgery*
+*)
+3. The National Center for Biotechnology Information (*https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4522469/#:~:text=Complication%20rates%20following%20video%20assisted,%25%20(1%2D3)*)

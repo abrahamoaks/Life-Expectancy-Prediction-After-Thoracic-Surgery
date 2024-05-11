@@ -1,4 +1,4 @@
-# Hepatitis Mortality Prediction using Machine Learning with Flask Web App
+# Hepatitis Mortality Prediction using Machine Learning with Flask Web App -- Abraham Obianke 
 
 ## Introduction 
 What is hepatitis?
@@ -11,7 +11,7 @@ Hepatitis can be caused by excessive alcohol consumption, toxins, certain medica
 
 ## Business Problem 
 ### Problem Context
-Patients with hepatitis have been continously increasing. An estimated 354 million people worldwide live with hepatitis B or C, and for most, testing and treatment remain beyond reach. Early diagnosis and treatment of chronic hepatitis may prevent complications such as cirrhosis (scarring of the liver), liver failure and liver cancer.
+Patients with hepatitis have been continously increasing. An estimated 354 million people worldwide live with hepatitis B or C, and for most, testing and treatment remain beyond reach. Early detection is key to prioritizing and tailoring treatment plans for patients with low chances of survival from the disease.
 
 *Source:https://who.int/health-topics/hepatitis#tab=tab_1*
 
@@ -77,17 +77,21 @@ Patients with hepatitis have been continously increasing. An estimated 354 milli
 ## Model Building 
 + Features Selection
 + Data Train/Test/Split
-+ Algorithm Comparisms
-    - Logistic Regression
-    - K-Nearest Neighbour
-    - Decision Tree Classifier
-    - Support Vector Machine
-    - Linear Discriminant Analysis
++ Algorithm Comparism
+    - Logistic Regression (LR)
+    - Linear Discriminant Analysis (LDA)
+    - Decision Tree Classifier (CART)
+    - Support Vector Machine (SVM)
+    - K-Nearest Neighbor (KNN)
+    - Naive Bayes (NB)
 + Serialize (Save Model)
+
+![Flask App](static/model_img.png)
+
 
 ## Model Interpretation
  + I implemented explainable AI techniques to understand the decisions made by the machine learning model for individual patients. With this technique, healthcare professionals can gain insights into which features are most influential in predicting the patient's outcome (i.e., survival or death). 
-
+![Flask App](static/explainer.jpg)
 
 ## Model Evaluation Metrics
 Since this is a binary classification problem, I used the following metrics:
@@ -95,12 +99,14 @@ Since this is a binary classification problem, I used the following metrics:
 * **Classification report** - For providing insights into the model's performance.
 * **Accuracy score** - To evaluate the overall performance of the classification model.
 
-## Key Achievement(s)
- + Model achieved an overall performance accuracy of 95.74% using Linear Discriminant Analysis (LDA) Machine Learning Algorithm.
+
+![Flask App](static/evaluation.jpg)
+
+
 
 ## Business Solution 
   ### Deploying the Model with a Flask Web App
- + To make the model accessible to end-users, I have developed a user-friendly Flask web application. The Flask web app provides a friendly user interface where users can input relevant parameters through a web form. Upon submission, the app processes the input data using the accurately trained cloud based machine learning model and provides the predicted outcome (live or die). A screenshot of the Flask web app is shown below;  [Click HERE to gain access to the Machine Learning Web App](http://abrahamoaks.pythonanywhere.com/) hosted in the cloud for global usage.
+ + To make the model accessible to end-users, I have developed a user-friendly Flask web application called "Predio." The Flask web app, Predio, provides a friendly user interface where users can input relevant parameters through a web form. Upon submission, the app processes the input data using the accurately trained cloud based machine learning model and provides the predicted outcome (live or die). [Click HERE to Gain FREE Access to the Machine Learning Web App](http://abrahamoaks.pythonanywhere.com/) hosted in the cloud for global usage.
 
 
 ![Flask App](static/hep_assess.jpg)
@@ -108,32 +114,52 @@ Since this is a binary classification problem, I used the following metrics:
 
 
 
-![Flask App](static/hep_assess2.jpg)
+![Flask App](static/report3.jpg)
 
 ## Model Monitoring and Maintenance 
-- I leveraged a robust cloud ML platform and implemented a quality control check, experiment tracking, model maintenance and model monitoring techniques to observe data drift and prevent performance degradation. This is to help ensure model fairness, improve model performance and maintain model reliability.
+- I leveraged a robust cloud ML platform and implemented a quality control check, experiment tracking, and model monitoring techniques to observe data drift, conduct routine maintenance and prevent performance degradation. This is to help ensure model fairness, improve model performance and maintain model reliability.
+
+
+![Flask App](static/monitor.jpg)
+
+### Key Achievement(s)
+ + Model achieved an overall performance accuracy of >95% using Linear Discriminant Analysis (LDA) Machine Learning Algorithm.
+ + Model operationalized and deployed on cloud premises for easy accessibility.
+ + Model successfully logged for continuous monitoring and routine maintenance.
   
 ## Technologies Used
 - Python 
-- VS Code
-- AWS Sagemaker 
-- Flask 
-- Scikit-Learn
-- Pandas
-- Numpy
-- Matplotlib
-- Seaborn
-- Lime
-- Joblib
-- Comet ML
+- Coding Tools
+   - VS Code
+   - AWS Sagemaker
+- ML Libraries 
+  - Scikit-Learn
+  - Pandas
+  - Numpy
+  - Matplotlib
+  - Seaborn
+  - Lime
+  - Joblib
+  - Comet ML
+- Web App Frameworks 
+  - Flask
+  - Bootstrap 
+  - HTML
+  - CSS
+  - JavaScript 
 
 ## Data Source
 The dataset used in this project is sourced from the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/).
 
 
 ## Conclusion
-This project aims to provide insights into hepatitis mortality prediction using machine learning techniques. By analyzing relevant parameters, interpreting the prediction of the black-box model to foster trust and deploying the model with a user-friendly Flask web application, I aim to make the predictive model accessible to healthcare professionals and individuals interested in hepatitis prognosis aiding in early detection and preventive care.
+This project aims to provide insights into hepatitis mortality prediction using machine learning techniques. By analyzing relevant parameters, interpreting the outcome of the black-box model to foster trust and deploying the machine learning model with a user-friendly Flask web application, I aim to make the predictive model accessible to healthcare professionals and individuals interested in hepatitis prognosis aiding in early detection and preventive care.
 
 
 ## Contact
-For any inquiries, feedback or collaboration please feel free to [Connect with me on LinkedIn](https://www.linkedin.com/in/abraham-obianke-269112197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) or send me an Email via  [abrahamoaks@gmail.com](mailto:your_email@example.com).
+I'm Abraham Obianke, a Medic in Tech, for any enquiries, feedback or collaborations, feel free to [Connect with me on LinkedIn](https://www.linkedin.com/in/abraham-obianke-269112197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) or send me an Email via  [abrahamoaks@gmail.com](mailto:your_email@example.com).
+
+## References
+1. University of California Irvine Machine Learning Repository (*https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/*)
+2. Medlineplus (*https://medlineplus.gov/hepatitis.html*)
+3. World Health Organization (*https://who.int/health-topics/hepatitis#tab=tab_1*)

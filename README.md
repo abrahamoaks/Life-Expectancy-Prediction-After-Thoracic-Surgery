@@ -163,7 +163,7 @@ This project aims to provide insights into life expectancy prediction after thor
 
 
 ## Contact
-I'm Abraham Obianke, a Medic in Tech, for any enquiries, feedback or collaborations, feel free to [Connect with me on LinkedIn](https://www.linkedin.com/in/abraham-obianke-269112197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) or send me an Email via  [abrahamoaks@gmail.com](mailto:your_email@example.com).
+I'm [Abraham Obianke](https://wa.me/+2348160715013), a Medic in Tech, for any enquiries, feedback or collaborations, feel free to [Connect with me on LinkedIn](https://www.linkedin.com/in/abraham-obianke-269112197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) or send me an Email via  [abrahamoaks@gmail.com](mailto:your_email@example.com).
 
 ## References
 1. University of California Irvine Machine Learning Repository (*https://archive.ics.uci.edu/dataset/277/thoracic+surgery+data*)

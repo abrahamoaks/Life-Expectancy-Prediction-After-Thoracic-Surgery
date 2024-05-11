@@ -1,4 +1,4 @@
-# Hepatitis Mortality Prediction using Machine Learning with Flask Web App -- Abraham Obianke 
+# Life Expectancy Prediction After Thoracic Surgery using Machine Learning with Flask Web App -- Abraham Obianke 
 
 ## Introduction 
 What is thoracic surgery?

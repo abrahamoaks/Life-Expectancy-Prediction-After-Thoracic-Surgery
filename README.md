@@ -78,7 +78,7 @@ Complication rates following video assisted thoracoscopic surgery (VATS) lobecto
     - Multivariate
       - Correlation Matrix
 
-![Flask App](static/histogram.png)
+![Flask App](img/ages.jpg)
 
 ## Model Building 
 + Features Selection
@@ -92,12 +92,12 @@ Complication rates following video assisted thoracoscopic surgery (VATS) lobecto
     - Naive Bayes (NB)
 + Serialize (Save Model)
 
-![Flask App](static/model_img.png)
+![Flask App](img/algorithm.jpg)
 
 
 ## Model Interpretation
  + I implemented explainable AI techniques to understand the decisions made by the machine learning model for individual patients. With this technique, healthcare professionals can gain insights into which features are most influential in predicting the patient's outcome (i.e., survival or death). 
-![Flask App](static/explainer.jpg)
+![Flask App](imp/interpretation.jpg)
 
 ## Model Evaluation Metrics
 Since this is a binary classification problem, I used the following metrics:
@@ -106,30 +106,30 @@ Since this is a binary classification problem, I used the following metrics:
 * **Accuracy score** - To evaluate the overall performance of the classification model.
 
 
-![Flask App](static/evaluation.jpg)
+![Flask App](img/accuracy.jpg)
 
 
 
 ## Business Solution 
   ### Deploying the Model with a Flask Web App
- + To make the model accessible to end-users, I have developed a user-friendly Flask web application called "Predio." The Flask web app, Predio, provides a friendly user interface where users can input relevant parameters through a web form. Upon submission, the app processes the input data using the accurately trained cloud based machine learning model and provides the predicted outcome (live or die). [Click HERE to Gain FREE Access to the Machine Learning Web App](http://abrahamoaks.pythonanywhere.com/) hosted in the cloud for global usage.
+ + To make the model accessible to end-users, I have developed a full fledged web application which provides a friendly user interface where users can input relevant parameters through a web form. Upon submission, the app processes the input data using the accurately trained cloud based machine learning model and provides the predicted outcome of a patient. [Click HERE to Gain FREE Access to the Machine Learning Web App](http://abcruz.pythonanywhere.com/) hosted in the cloud for global usage.
 
 
-![Flask App](static/hep_assess.jpg)
+![Flask App](img/page1.jpg)
 
 
 
 
-![Flask App](static/report3.jpg)
+![Flask App](img/page2.jpg)
 
 ## Model Monitoring and Maintenance 
 - I leveraged a robust cloud ML platform and implemented a quality control check, experiment tracking, and model monitoring techniques to observe data drift, conduct routine maintenance and prevent performance degradation. This is to help ensure model fairness, improve model performance and maintain model reliability.
 
 
-![Flask App](static/monitor.jpg)
+![Flask App](img/monitor.jpg)
 
 ### Key Achievement(s)
- + Model achieved an overall performance accuracy of >95% using Linear Discriminant Analysis (LDA) Machine Learning Algorithm.
+ + Model achieved an overall performance accuracy of >85% using Linear Discriminant Analysis (LDA) Machine Learning Algorithm.
  + Model operationalized and deployed on cloud premises for easy accessibility.
  + Model successfully logged for continuous monitoring and routine maintenance.
   

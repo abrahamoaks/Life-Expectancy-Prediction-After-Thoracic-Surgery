@@ -1,7 +1,7 @@
 # Life Expectancy Prediction After Thoracic Surgery using Machine Learning with Flask Web App -- Abraham Obianke 
 
 ## Introduction 
-What does thoracic surgery?
+What is thoracic surgery?
 Thoracic surgery includes any operation to treat an issue in your chest and upper abdomen, such as:
 Stretched blood vessels (aneurysms).
 Congenital (present at birth) heart issues.

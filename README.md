@@ -3,10 +3,10 @@
 ## Introduction 
 What is thoracic surgery?
 Thoracic surgery includes any operation to treat an issue in your chest and upper abdomen, such as:
-Stretched blood vessels (aneurysms).
-Congenital (present at birth) heart issues.
-Irregular heart rhythms.
-Heart failure.
+Stretched blood vessels (aneurysms),
+Congenital (present at birth) heart issues,
+Irregular heart rhythms,
+Heart failure, and
 Coronary artery disease.
 
 *Source:https://my.clevelandclinic.org/health/treatments/24201-thoracic-surgery*

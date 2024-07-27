@@ -97,7 +97,7 @@ Complication rates following video assisted thoracoscopic surgery (VATS) lobecto
 
 ## Model Interpretation
  + I implemented explainable AI techniques to understand the decisions made by the machine learning model for individual patients. With this technique, healthcare professionals can gain insights into which features are most influential in predicting the patient's outcome (i.e., survival or death). 
-![Flask App](imp/interpretation.jpg)
+![Flask App](img/interpretation.jpg)
 
 ## Model Evaluation Metrics
 Since this is a binary classification problem, I used the following metrics:

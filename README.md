@@ -1,15 +1,7 @@
 # Life Expectancy Prediction After Thoracic Surgery using Machine Learning with Flask Web App -- Abraham Obianke 
 
 ## Introduction 
-What is thoracic surgery?
-Any operation in your chest (thorax) is thoracic surgery. While your heart is the best-known organ in your chest, thoracic surgery includes lung surgery and much more. It also includes surgery of your:
-Esophagus (food pipe).
-Trachea (windpipe).
-Diaphragm.
-Chest wall (ribs, breastbone and the muscles around them).
-Mediastinum (the area between your lungs).
-
-What does thoracic surgery treat?
+What does thoracic surgery?
 Thoracic surgery includes any operation to treat an issue in your chest and upper abdomen, such as:
 Stretched blood vessels (aneurysms).
 Congenital (present at birth) heart issues.
@@ -19,7 +11,7 @@ Coronary artery disease.
 
 *Source:https://my.clevelandclinic.org/health/treatments/24201-thoracic-surgery*
 
-## Business Problem 
+## Patients Problem 
 ### Problem Context
 Complication rates following video assisted thoracoscopic surgery (VATS) lobectomy for lung cancer range between 6% and 34.2% and the mortality rate ranges between 0.6% and 1.3% (1-3). To date, there is no standardization for their classification. Postoperative complications are directly related to treatment effectiveness, prognosis, hospitalization costs and patients’ quality of life.
 
@@ -51,7 +43,7 @@ Complication rates following video assisted thoracoscopic surgery (VATS) lobecto
 *Data Source:* https://archive.ics.uci.edu/dataset/277/thoracic+surgery+data
 
 
-## Mapping Business Problem to ML Problem
+## Mapping Patient Problem to ML Problem
 
 ### Type of Machine Learning Problem
 + It is a binary classification problem, where given the above set of features, we need to predict if a given patient having undergone thoracic surgery will live or die post-operatively.
@@ -110,7 +102,7 @@ Since this is a binary classification problem, I used the following metrics:
 
 
 
-## Business Solution 
+## Data-Driven Solution 
   ### Deploying the Model with a Flask Web App
  + To make the model accessible to end-users, I have developed a full fledged web application which provides a friendly user interface where users can input relevant parameters through a web form. Upon submission, the app processes the input data using the accurately trained cloud based machine learning model and provides the predicted outcome of a patient. [Click HERE to Gain FREE Access to the Machine Learning Web App](http://abcruz.pythonanywhere.com/) hosted in the cloud for global usage.
 

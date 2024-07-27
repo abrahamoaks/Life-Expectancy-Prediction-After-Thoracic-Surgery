@@ -101,6 +101,7 @@ Since this is a binary classification problem, I used the following metrics:
 
 
 ![Flask App](img/accuracy.jpg)
+![Flask App](img/evaluation.jpg)
 
 
 
@@ -153,7 +154,7 @@ The dataset used in this project is sourced from the UCI Machine Learning Reposi
 
 
 ## Conclusion
-This project aims to provide insights into life expectancy prediction after thoracic surgery using machine learning techniques. By analyzing relevant parameters, interpreting the outcome of the black-box model to foster trust and deploying the machine learning model with a user-friendly Flask web application, I aim to make the predictive model accessible to healthcare professionals and individuals interested in thoracic surgery prognosis aiding in early detection and preventive care.
+This project aims to provide insights into life expectancy prediction after thoracic surgery using machine learning techniques. By analyzing relevant parameters, interpreting the outcome of the black-box model and deploying the machine learning model with a user-friendly Flask web application, I aim to foster trust in clinical adoption and to make the predictive model accessible to healthcare professionals and individuals interested in thoracic surgery prognosis aiding in early detection and preventive care.
 
 
 ## Contact

@@ -43,7 +43,7 @@ Complication rates following video assisted thoracoscopic surgery (VATS) lobecto
 *Data Source:* https://archive.ics.uci.edu/dataset/277/thoracic+surgery+data
 
 
-## Mapping Patient Problem to ML Problem
+## Mapping Patients Problem to ML Problem
 
 ### Type of Machine Learning Problem
 + It is a binary classification problem, where given the above set of features, we need to predict if a given patient having undergone thoracic surgery will live or die post-operatively.
@@ -71,6 +71,8 @@ Complication rates following video assisted thoracoscopic surgery (VATS) lobecto
       - Correlation Matrix
 
 ![Flask App](img/ages.jpg)
+
+![Flask App](img/features.png)
 
 ## Model Building 
 + Features Selection

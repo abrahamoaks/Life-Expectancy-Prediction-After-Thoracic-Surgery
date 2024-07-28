@@ -74,6 +74,8 @@ Complication rates following video assisted thoracoscopic surgery (VATS) lobecto
 
 ![Flask App](img/features.png)
 
+![Flask App](img/dist.jpg)
+
 ## Model Building 
 + Features Selection
 + Data Train/Test/Split
@@ -118,13 +120,13 @@ Since this is a binary classification problem, I used the following metrics:
 ![Flask App](img/page2.jpg)
 
 ## Model Monitoring and Maintenance 
-- I leveraged a robust cloud ML platform and implemented a quality control check, experiment tracking, and model monitoring techniques to observe data drift, conduct routine maintenance and prevent performance degradation. This is to help ensure model fairness, improve model performance and maintain model reliability.
+- I leveraged CometML, a robust model monitoring platform and implemented a quality control check, experiment tracking, and model monitoring techniques to observe data drift, conduct routine maintenance and prevent performance degradation. This is to help ensure model fairness, improve model performance and maintain model reliability.
 
 
 ![Flask App](img/monitor.jpg)
 
 ### Key Achievement(s)
- + Model achieved an overall performance accuracy of >85% using Linear Discriminant Analysis (LDA) Machine Learning Algorithm.
+ + Model achieved an overall performance accuracy of >85% using K-Nearest Neighbor (KNN) Machine Learning Algorithm.
  + Model operationalized and deployed on cloud premises for easy accessibility.
  + Model successfully logged for continuous monitoring and routine maintenance.
   

@@ -76,6 +76,11 @@ Complication rates following video assisted thoracoscopic surgery (VATS) lobecto
 
 ![Flask App](img/dist.jpg)
 
+### Analysis Observations 
+1. The highest prevalence of Thoracic surgery complications is between the age range of 50 - 70 years
+2. The lowest prevalence of Thoracic surgery complications is between the age range of 10 - 30 years
+3. The highest contributing feature is False Vital Expiration (FEV)
+
 ## Model Building 
 + Features Selection
 + Data Train/Test/Split
